@@ -15,7 +15,9 @@ This repo provides a simple workaround, which will no longer be needed when Appl
 | *after import* |
 
 
-The pictures can be imported from SD cards to the `Photos` app without any problem. In the preview before the import, the thumbnails of the RAW images are displayed correctly. This indicates Apple does support RAW format and `Photos` app knows how to read and display RAW images. So I consider this a bug instead of a lack of features. | ![image](https://github.com/lqu/macsonyraw/assets/432856/0ed6ec07-c6a1-48d1-bdfa-f3e2562fdaf4) |
+The pictures can be imported from SD cards to the `Photos` app without any problem. In the preview before the import, the thumbnails of the RAW images are displayed correctly. This indicates Apple does support RAW format and `Photos` app knows how to read and display RAW images. So I consider this a bug instead of a lack of features. 
+
+| ![image](https://github.com/lqu/macsonyraw/assets/432856/0ed6ec07-c6a1-48d1-bdfa-f3e2562fdaf4) |
 |:--:| 
 | *preview before import* |
 
