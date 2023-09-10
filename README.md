@@ -33,4 +33,5 @@ SONY cameras provides 3 options when saving pictures - RAW, JPEG, and RAW+JPEG. 
 ```
 exiftool -b -PreviewImage DSC08317.ARW > DSC08317.JPG 
 ```
-[troubleshooting.md]
+[[troubleshooting.md]
+](https://github.com/lqu/macsonyraw/blob/main/troubleshooting.md#exiftool)https://github.com/lqu/macsonyraw/blob/main/troubleshooting.md#exiftool
