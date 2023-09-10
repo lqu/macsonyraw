@@ -22,5 +22,10 @@ The pictures can be imported from SD cards to the `Photos` app without any probl
 | *preview before import* |
 
 
-# Solution
+# Troubleshooting
+SONY cameras provides 3 options when saving pictures - RAW, JPEG, and RAW+JPEG. Only RAW has problems. Further examination shows RAW+JPEG format is just the same picture saved twice, with the same filename but different extensions, for instance, DSC0012.jpg and DSC0012.arw. `Photos` app knows how to handle this.
 
+
+# Solution
+1. Configure your camera to use RAW+JPEG format to save pictures; or
+2. Convert RAW images into RAW+JPEG fomrat by augmenting it with JPEG
