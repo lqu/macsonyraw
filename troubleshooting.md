@@ -34,3 +34,9 @@ version 4.4.2 -- loads preview, but
  failed to read camera white balance information
  'SONY ILCE-6700' color matrix not found for image
  ```
+### exiftool
+version 12.64 -- works but only preview
+ ```
+ exiftool -b -PreviewImage DSC08317.ARW > DSC08317.JPG 
+ ```
+As exiftool works with preivews, the resolution is smaller (1080 vs 4k). This is enough to show pictures on Mac and iPhone. The original RAW file is preserved after import/export. File checksums are identical before and after import/export.
