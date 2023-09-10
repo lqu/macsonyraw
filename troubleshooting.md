@@ -20,10 +20,13 @@ version 9.28 -- doesn't work
  ```
 ### rawtherapee (rawtherapee-cli)
 version 5.8 -- doesn't work
- ```
- "Processing: DSC....ARW
- Error loading file: DSC....ARW"
- ```
+```
+$ rawtherapee-cli -o outdir -c DSC08317.ARW
+RawTherapee, version 5.8, command line.
+Output is 8-bit integer.
+Processing: DSC08317.ARW
+Error loading file: DSC08317.ARW
+```
 
 ### darktable (darktable.cli)
 version 4.4.2 -- loads preview, but 
