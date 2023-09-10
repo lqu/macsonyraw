@@ -10,8 +10,8 @@
 ## Converters and results
 Tools with a CLI interface are preferred.
 
-### dcraw
-version 9.28 -- doesn't work
+### dcraw + imagemagick
+dcraw version 9.28 + imagemagick convert version 6.9.10-23 Q16 -- doesn't work
  ```
  $ dcraw -c DSC08317.ARW | convert - DSC08317.JPG
  Cannot decode file DSC08317.ARW
