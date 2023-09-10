@@ -29,3 +29,8 @@ SONY cameras provides 3 options when saving pictures - RAW, JPEG, and RAW+JPEG. 
 # Solution
 1. Configure your camera to use RAW+JPEG format to save pictures; or
 2. Convert RAW images into RAW+JPEG fomrat by augmenting it with JPEG
+
+```
+exiftool -b -PreviewImage DSC08317.ARW > DSC08317.JPG 
+```
+[troubleshooting.md]
