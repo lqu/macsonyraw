@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Iterate over all .ARW files in the current directory
+# Create JPEGs if they don't exist
+
+for arw_file in *.ARW; do
+    # Check if the file actually exists (in case there are no .ARW files in the directory)
+    if [[ -f "$arw_file" ]]; then
+        # Extract the base name (i.e., without extension)
+        base_name="${arw_file%.*}"
+        
+        # Check if the corresponding .JPG file does not exist
+        if [[ ! -f "$base_name.JPG" ]]; then
+            # Convert the .ARW file to .JPG 
+            exiftool -b -P -PreviewImage "$arw_file" > "$base_name.JPG"
+        fi
+    fi
+done
