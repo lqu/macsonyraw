@@ -7,6 +7,14 @@
  >orientation=upper-left, xresolution=290, yresolution=298, resolutionunit=2, 
  >software=ILCE-6700 v1.00, datetime=2023:09:10 00:37:45
 
+Extracting the embedded thumbnail works.
+ >$ dcraw -e -c DSC08317.ARW | convert - DSC08317.jpg
+
+TIFF works.
+ >$ dcraw -T DSC08317.ARW
+
+But file sile is too large, and color looks different. //TODO read usage
+
 ## Converters and results
 Tools with a CLI interface are preferred.
 
